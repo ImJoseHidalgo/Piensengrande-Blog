@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Nunito", sans-serif;
 }
 body {
   background: #fff;
@@ -82,22 +85,40 @@ header {
   height: 10rem;
   position: fixed;
   z-index: 9;
-  top: -12rem;
+  top: -20rem;
+  transition: all 0.5s;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.menu-socials {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
-  padding-top: 2rem;
-  transition: all 0.5s;
+  justify-content: center;
+  align-items: center;
+}
+.menu-socials a img {
+  width: 25px;
+}
+.menu-pages-container {
+  width: 60%;
+  margin: auto;
+}
+.menu-pages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 ul {
   list-style: none;
 }
 li {
-  margin: 0.5rem;
+  line-height: 80px;
+  font-size: 42px;
+  font-weight: bold;
 }
 a {
-  margin: 0 1rem;
+  margin: 0.2rem 0;
   color: #000;
   text-decoration: none;
 }
@@ -110,19 +131,19 @@ a {
 .checkbox:checked + header .header-container label .header-button {
   background: none;
 }
-.checkbox:checked + header .search-header {
-  display: none;
-}
 .checkbox:checked + header .header-container {
   grid-template-columns: 1fr 1fr;
 }
+.checkbox:checked + header .search-header {
+  display: none;
+}
 .checkbox:checked + header .header-container label .header-button::before {
-  transform: rotate(35deg);
+  transform: rotate(40deg);
   top: 0;
   background: #fff;
 }
 .checkbox:checked + header .header-container label .header-button::after {
-  transform: rotate(-35deg);
+  transform: rotate(-40deg);
   top: 0;
   background: #fff;
 }
