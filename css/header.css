@@ -24,6 +24,8 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
 }
 .header-logo-container {
+  transition: 0.3s;
+  /* transition-delay: 0.3s; */
   background: url(../assets/images/logo-header-black.png);
   background-size: 10rem;
   margin-top: 5px;
@@ -133,6 +135,8 @@ a {
   background: none;
 }
 .checkbox:checked + header .header-container .header-logo-container {
+  transition: 0.1s;
+  /* transition-delay: 0.1s; */
   background: url(../assets/images/logo-header-white.png);
   background-repeat: no-repeat;
   background-size: 10rem;
