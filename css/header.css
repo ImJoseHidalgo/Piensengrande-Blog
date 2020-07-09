@@ -15,6 +15,7 @@ header {
   position: fixed;
   width: 100%;
   z-index: 10;
+  background: #fff;
 }
 .header-container {
   width: 90%;
@@ -136,9 +137,11 @@ a {
 .checkbox:checked + header .header-container label .header-button {
   background: none;
 }
+.checkbox:checked + header {
+  background: none;
+}
 .checkbox:checked + header .header-container .header-logo-container {
   transition: 0.1s;
-  /* transition-delay: 0.1s; */
   background: url(../assets/images/logo-header-white.png);
   background-repeat: no-repeat;
   background-size: 10rem;
