@@ -98,6 +98,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: -100px;
 }
 .menu-socials a img {
   width: 25px;
@@ -107,6 +108,7 @@ header {
   margin: auto;
 }
 .menu-pages {
+  margin-top: -100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
