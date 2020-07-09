@@ -12,10 +12,10 @@ body {
   display: none;
 }
 header {
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 10;
-  background: #fff;
+  /* background: #fff; */
 }
 .header-container {
   width: 90%;
@@ -145,6 +145,7 @@ a {
   background: url(../assets/images/logo-header-white.png);
   background-repeat: no-repeat;
   background-size: 10rem;
+  z-index: 100;
 }
 .checkbox:checked + header .header-container {
   grid-template-columns: 1fr 1fr;
