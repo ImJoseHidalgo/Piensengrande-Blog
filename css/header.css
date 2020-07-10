@@ -94,12 +94,27 @@ header {
   display: grid;
   grid-template-columns: 1fr 3fr;
 }
+.menu::after {
+  content: "Piensengrande";
+  position: absolute;
+  font-size: 600px;
+  letter-spacing: -20px;
+  color: #33384d;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  z-index: 9;
+  font-weight: 900;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
 .menu-socials {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: -100px;
+  z-index: 10;
 }
 .menu-socials a img {
   width: 25px;
@@ -122,6 +137,7 @@ li {
   line-height: 80px;
   font-size: 42px;
   font-weight: bold;
+  z-index: 10;
 }
 a {
   margin: 0.2rem 0;
@@ -180,5 +196,9 @@ a {
   }
   .menu {
     grid-template-columns: 1fr 4fr;
+  }
+  .menu::after {
+    font-size: 350px;
+    letter-spacing: -10px;
   }
 }
