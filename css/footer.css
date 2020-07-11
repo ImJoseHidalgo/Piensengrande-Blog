@@ -45,3 +45,15 @@ footer {
     font-size: 12px;
   }
 }
+@media only screen and (max-width: 480px) {
+  .ul-container ul a {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .ul-container ul a {
+    font-size: 14px;
+    margin: 0 5px;
+  }
+}

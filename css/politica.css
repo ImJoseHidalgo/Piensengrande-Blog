@@ -19,6 +19,15 @@
   font-size: inherit;
   line-height: 20px;
 }
+.politica-section a {
+  color: #f4ab00;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1024px) {
+  .politica-section {
+    width: 90%;
+  }
+}
 @media only screen and (max-width: 600px) {
   .politica-section {
     width: 85%;
