@@ -14,8 +14,17 @@
   color: #666;
   margin: 20px 0;
 }
-li {
+.politica-section li {
   color: #666;
   font-size: inherit;
   line-height: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .politica-section {
+    width: 85%;
+    padding: 10px 0;
+  }
+  .politica-section li {
+    line-height: 24px;
+  }
 }
