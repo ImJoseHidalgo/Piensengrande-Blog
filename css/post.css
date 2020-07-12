@@ -1,0 +1,12 @@
+.post-section-container {
+  width: 50%;
+  margin: auto;
+}
+.post-section-container h1 {
+  color: #333;
+  text-align: center;
+  border: 1px solid red;
+}
+.post-section-container p {
+  color: #444;
+}
