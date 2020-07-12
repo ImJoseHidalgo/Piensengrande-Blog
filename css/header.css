@@ -139,6 +139,15 @@ ul {
   font-weight: bold;
   z-index: 10;
 }
+.menu-pages li a:hover {
+  color: #f4ab00;
+}
+body#portada .menu-pages li:nth-child(1) a,
+body#blog .menu-pages li:nth-child(2) a,
+body#about .menu-pages li:nth-child(3) a,
+body#contact .menu-pages li:nth-child(4) a {
+  color: #f4ab00;
+}
 a {
   margin: 0.2rem 0;
   color: #fff;

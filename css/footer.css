@@ -15,11 +15,22 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.ul-container ul {
+  display: flex;
+}
 .ul-container ul a {
   color: #bbb;
   font-size: 16px;
   font-weight: 600;
   margin: 0 20px;
+}
+.ul-container ul a:hover {
+  color: #f4ab00;
+}
+body#privacidad .ul-container li:nth-child(1) a,
+body#terminos .ul-container li:nth-child(2) a,
+body#cookies .ul-container li:nth-child(3) a {
+  color: #f4ab00;
 }
 .footer-container p {
   margin: 5px 0 -5px;
