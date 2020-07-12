@@ -1,12 +1,49 @@
+.post-section {
+  margin: 40px 0 40px;
+}
 .post-section-container {
   width: 50%;
   margin: auto;
+  text-align: center;
 }
 .post-section-container h1 {
   color: #333;
   text-align: center;
-  border: 1px solid red;
+  margin: 0 0 20px;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 .post-section-container p {
+  padding: 10px 0;
+  font-size: 18px;
   color: #444;
+  text-align: start;
+}
+.post-section-container img {
+  width: 70%;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+@media only screen and (max-width: 1024px) {
+  .post-section-container {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .post-section-container {
+    width: 85%;
+  }
+  .post-section-container h1 {
+    font-size: 36px;
+  }
+  .post-section-container img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .post-section-container {
+    width: 85%;
+  }
+  .post-section-container h1 {
+    font-size: 32px;
+  }
 }

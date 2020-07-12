@@ -36,9 +36,10 @@
 
 @media only screen and (max-width: 1024px) {
   .blog-container {
-    width: 90%;
+    width: 80%;
   }
   .blog-preview-container {
+    grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
   }
   .post-card-container img {
