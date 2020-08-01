@@ -9,10 +9,10 @@ var x = setInterval(function () {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   countdown.innerHTML = `
-  <div>${days}<span>Days</span></div>
-  <div>${hours}<span>Hours</span></div>
-  <div>${mins}<span>Minutes</span></div>
-  <div>${seconds}<span>Seconds</span></div>
+  <div>${days}<span>Días</span></div>
+  <div>${hours}<span>Horas</span></div>
+  <div>${mins}<span>Minutos</span></div>
+  <div>${seconds}<span>Segundos</span></div>
   `;
 
   if (distance < 0) {
