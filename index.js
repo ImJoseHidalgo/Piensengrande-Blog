@@ -11,8 +11,8 @@ var x = setInterval(function () {
   countdown.innerHTML = `
   <div>${days}<span>Días</span></div>
   <div>${hours}<span>Horas</span></div>
-  <div>${mins}<span>Minutos</span></div>
-  <div>${seconds}<span>Segundos</span></div>
+  <div>${mins}<span>Min.</span></div>
+  <div>${seconds}<span>Seg.</span></div>
   `;
 
   if (distance < 0) {
