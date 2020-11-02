@@ -1,6 +1,6 @@
 var countdown = document.querySelector(".countdown");
 var x = setInterval(function () {
-  var launchDate = new Date("Oct 21, 2020 13:00:00").getTime();
+  var launchDate = new Date("Dec 21, 2020 13:00:00").getTime();
   var now = new Date().getTime();
   var distance = launchDate - now;
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
